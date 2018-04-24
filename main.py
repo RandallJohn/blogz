@@ -71,7 +71,7 @@ def create_blog():
                 db.session.add(new_blog)
                 db.session.commit()
 
-                blog_id= new_blog.id
+                blog_id = new_blog.id
 
                 #blog_id = int(request.form['blog-id'])
                 
